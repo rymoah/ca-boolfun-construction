@@ -18,4 +18,4 @@ The Java classes that can be run are the following:
 - ca.TestQuadraticCASboxFile -> Same as the class above, but loop instead over a list of quadratic rules contained in a file
 - ca.TestSingleCASbox -> Test the CA construction up to a specified number of variables on a single local rule
 
-Invoking each class without arguments prints a helper on how to use it. The class ca.TestQuadraticCASbox is the one implementing the search-ANF algorithm described in section 4 of the paper, in the particular case where the degree is 2 (i.e., we only consider quadratic functions as in the experiments presented in section 5).
+Invoking each class without arguments prints a helper with information on how to use the class. The class ca.TestQuadraticCASbox is the one implementing the search-ANF algorithm described in section 4 of the paper, in the particular case where the degree is 2 (i.e., we only consider quadratic functions as in the experiments presented in section 5).
